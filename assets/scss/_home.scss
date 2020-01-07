@@ -1,0 +1,259 @@
+/* home page - start
+==================================================================================================== */
+
+.signupbutton {
+	border: 5px solid white;;
+}
+
+/* banner section - start
+================================================== */
+.banner-section {
+	z-index: 1;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	.deco-image {
+		width: 300px;
+		opacity: .30;
+		position: absolute;
+	}
+	.deco-image-1 {
+		left: 50%;
+		z-index: -1;
+		bottom: 0px;
+		margin-bottom: -350px;
+		transform: rotate(20deg) translateX(-50%);
+	}
+	.deco-image-2 {
+		top: 70%;
+		right: 0px;
+		width: 260px;
+		margin-right: -350px;
+		transform: rotate(-30deg) translateY(-70%);
+	}
+
+	.banner-image {
+		max-width: 350px;
+		>img {
+			transition: all .5s ease-in-out;
+			animation: zoomin 2s ease-in infinite;
+		}
+	}
+	.banner-content {
+		margin-top: 150px;
+		.title-text {
+			font-size: 75px;
+		}
+		p {
+			font-size: 24px;
+		}
+		.btns-group {
+			.list-title {
+				font-size: 24px;
+				font-weight: $fw-bold;
+			}
+			>ul {
+				>li {
+					margin-right: 15px;
+					&:last-child {
+						margin-right: 0px !important;
+					}
+					>a {
+						max-width: 170px;
+					}
+				}
+			}
+		}
+	}
+}
+/* banner section - end
+================================================== */
+
+
+
+/* about section - start
+================================================== */
+.about-item-grid {
+	margin-top: 40px;
+	.about-image {
+		width: 300px;
+		height: 300px;
+		display: flex;
+		overflow: hidden;
+		border-radius: 100%;
+		margin: 0px auto 40px;
+		background-color: $default-orange;
+		>img {
+			object-fit: cover;
+		}
+	}
+
+	.item-title {
+		font-size: 30px;
+		color: $default-orange;
+	}
+}
+/* about section - end
+================================================== */
+
+
+
+/* feature section - start
+================================================== */
+.feature-section {
+
+	.feature-item {
+		margin-bottom: 130px;
+		&:last-child {
+			margin-bottom: 0px !important;
+		}
+		.feature-image {
+			position: relative;
+			padding-bottom: 200px;
+			background-size: 100% auto;
+			background-position: center bottom;
+			>img {
+				max-width: 350px;
+				display: inline-block;
+			}
+			.shape-image {
+				width: 100px;
+				position: absolute;
+			}
+			.shape-1 {
+				top: 130px;
+				left: 0px;
+			}
+			.shape-2 {
+				top: 200px;
+				right: 0px;
+			}
+			.shape-3 {
+				top: 60%;
+				left: -30px;
+			}
+		}
+
+		.feature-fontant {
+			margin: auto 0px;
+			.item-title {
+				font-size: 55px;
+				color: $default-orange;
+			}
+		}
+	}
+
+}
+/* feature section - end
+================================================== */
+
+
+
+/* service section - start
+================================================== */
+.service-item {
+	width: 19%;
+	padding: 15px;
+	margin-top: 30px;
+	min-height: 240px;
+	display: inline-block;
+	.item-icon {
+		width: 175px;
+		height: 175px;
+		overflow: hidden;
+		text-align: center;
+		border-radius: 100%;
+		margin: 0px auto 30px;
+		background-color: $default-yellow;
+		>img {
+			margin: auto;
+			height: 60px;
+		}
+	}
+
+	.item-title {
+		font-size: 24px;
+	}
+}
+/* service section - end
+================================================== */
+
+
+
+/* advertisement section - start
+================================================== */
+.advertisement-section {
+	overflow: hidden;
+	position: relative;
+
+	.btns-group {
+		>ul {
+			>li {
+				margin-right: 15px;
+				&:last-child {
+					margin-right: 0px !important;
+				}
+				>a {
+					max-width: 170px;
+				}
+			}
+		}
+	}
+
+	.social-links {
+		>ul {
+			>li {
+				>a {
+					color: $pure-white;
+					border: 2px solid $pure-white;
+				}
+			}
+		}
+	}
+
+	.deco-image {
+		bottom: -2px;
+		max-width: 270px;
+		position: absolute;
+	}
+
+	.deco-image-1 {
+		left: 100px;
+	}
+	.deco-image-2 {
+		right: 100px;
+	}
+
+}
+/* advertisement section - end
+================================================== */
+
+
+
+/* privacy policy section - start
+================================================== */
+.privacy-policy-section {
+	.privacy-policy-item {
+		.item-title {
+			font-size: 30px;
+			color: $default-orange;
+		}
+		p {
+			font-size: 25px;
+		}
+	}
+}
+/* privacy policy section - end
+================================================== */
+
+
+
+/* section - start
+================================================== */
+/* section - end
+================================================== */
+
+/* home page - end
+==================================================================================================== */

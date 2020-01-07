@@ -1,0 +1,38 @@
+/* footer section - start
+==================================================================================================== */
+.footer-section {
+	padding: 45px 0px;
+	.contact-info {
+		p {
+			font-size: 17px;
+			a {
+				color: $default-black;
+			}
+		}
+	}
+
+	.useful-links {
+		>ul {
+			>li {
+				margin-right: 75px;
+				&:last-child {
+					margin-right: 0px !important;
+				}
+				>a {
+					display: block;
+					font-size: 17px;
+					color: $default-orange;
+				}
+			}
+		}
+	}
+
+	.copyright-text {
+		p {
+			font-size: 17px;
+			color: $default-black;
+		}
+	}
+}
+/* footer section - end
+==================================================================================================== */

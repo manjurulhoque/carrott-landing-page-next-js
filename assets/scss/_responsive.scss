@@ -1,0 +1,626 @@
+/* ================================================== 
+*	Project Name 	:  Carrott
+*	File 			:  Responsive CSS Base
+*	Version 		:  1.0.0
+*	Last change 	:  05 November 2019
+*	Author 			:  ----------
+*	Developer:		:  Jaherul Alom
+
+*	css code for responsive layout To make Responsive
+================================================== */
+
+/* ==================================================
+*	1 - media screen and (max-width: 1440px)
+*	2 - media screen and (max-width: 1280px)
+*	3 - media screen and (max-width: 1199px)
+*	4 - media screen and (max-width: 991px)
+*	5 - media screen and (max-width: 767px)
+*	6 - media screen and (max-width: 680px)
+*	7 - media screen and (max-width: 580px)
+*	8 - media screen and (max-width: 480px)
+*	9 - media screen and (max-width: 320px)
+================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+1 - media screen and (max-width: 1440px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1440px) {
+
+	/* global - start */
+	body {
+		font-size: 16px;
+	}
+	.container {
+		max-width: 1200px;
+	}
+	.section-title .title-text {
+		font-size: 48px;
+	}
+	.section-title.text-center p {
+		width: 700px;
+		font-size: 20px;
+	}
+	/* global - end */
+
+	/* header - start */
+	.header-section {
+		padding: 30px 0px;
+	}
+	.sticky-header.stuck {
+		padding: 20px 0px;
+	}
+	/* header - end */
+
+	/* footer - start */
+	.footer-section {
+		padding: 30px 0px;
+	}
+	/* footer - end */
+
+	/* home - start */
+	.banner-section {
+		height: auto;
+		padding-top: 130px;
+	}
+	.banner-section .banner-content {
+		margin-top: 100px;
+	}
+	.banner-section .banner-content .title-text {
+		font-size: 54px;
+	}
+	.banner-section .banner-content p {
+		font-size: 20px;
+	}
+	.banner-section .deco-image {
+		width: 250px;
+	}
+	.banner-section .deco-image-1 {
+		margin-bottom: -300px;
+	}
+	.banner-section .deco-image-2 {
+		top: 60%;
+		width: 150px;
+		margin-right: -180px;
+		transform: rotate(-30deg) translateY(-60%);
+	}
+	.banner-section .banner-image {
+		max-width: 300px;
+	}
+
+	.feature-section .feature-item .feature-image > img {
+		max-width: 250px;
+	}
+	.feature-section .feature-item .feature-image .shape-image {
+		width: 80px;
+	}
+	.feature-section .feature-item .feature-image .shape-1 {
+		top: 70px;
+	}
+	.feature-section .feature-item .feature-image .shape-2 {
+		top: 130px;
+	}
+	.feature-section .feature-item .feature-fontant .item-title {
+		font-size: 36px;
+	}
+	.feature-section .feature-item .feature-image {
+		padding-bottom: 150px;
+	}
+	/* home - end */
+
+	/* privacy policy - start */
+	.privacy-policy-section .privacy-policy-item p {
+		font-size: 20px;
+	}
+	.privacy-policy-section .privacy-policy-item .item-title {
+		font-size: 26px;
+	}
+	/* privacy policy - end */
+
+}
+
+/* ====================================================================================================
+1 - media screen and (max-width: 1440px) - end
+==================================================================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+2 - media screen and (max-width: 1280px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1280px) {
+
+	/* breadcrumb - start */
+	.breadcrumb-section {
+		height: 700px;
+	}
+	.breadcrumb-section .title-text {
+		top: 65%;
+		left: 50%;
+		width: 100%;
+		text-align: center;
+		transform: translate(-50%, -65%);
+	}
+	/* breadcrumb - end */
+
+	/* home - start */
+	.feature-section .feature-item .feature-image {
+		padding-bottom: 110px;
+		background-size: 90% auto;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+2 - media screen and (max-width: 1280px) - end
+==================================================================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+3 - media screen and (max-width: 1199px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1199px) {
+
+	/* header - start */
+	.header-section .main-menubar > ul > li {
+		margin-right: 50px;
+	}
+	/* header - end */
+
+	/* footer - start */
+	.footer-section .useful-links > ul > li {
+		margin-right: 40px;
+	}
+	/* footer - end */
+
+	/* breadcrumb - start */
+	.breadcrumb-section {
+		height: 400px;
+	}
+	.breadcrumb-section .title-text {
+		top: 65%;
+		left: 50%;
+		font-size: 50px;
+		transform: translate(-50%, -65%);
+	}
+	/* breadcrumb - end */
+
+	/* home - start */
+	.banner-section .banner-content .title-text {
+		font-size: 42px;
+	}
+	.banner-section .banner-content p {
+		font-size: 18px;
+	}
+	.banner-section .deco-image-1 {
+		margin-bottom: -240px;
+	}
+	.banner-section .deco-image {
+		width: 200px;
+	}
+
+	.about-item-grid .about-image {
+		width: 200px;
+		height: 200px;
+		margin: 0px auto 30px;
+	}
+	.about-item-grid .item-title {
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+
+	.feature-section .feature-item .feature-image > img {
+		max-width: 200px;
+	}
+	.feature-section .feature-item .feature-image .shape-image {
+		width: 60px;
+	}
+	.feature-section .feature-item .feature-image .shape-3 {
+		left: 0px;
+	}
+
+	.service-item .item-icon {
+		width: 130px;
+		height: 130px;
+		margin: 0px auto 30px;
+	}
+	.service-item .item-icon > img {
+		height: 40px;
+	}
+	.service-item .item-title {
+		font-size: 18px;
+	}
+	.service-item {
+		min-height: 210px;
+	}
+
+	.advertisement-section .deco-image {
+		max-width: 160px;
+	}
+	.advertisement-section .deco-image-1 {
+		left: 30px;
+	}
+	.advertisement-section .deco-image-2 {
+		right: 30px;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+3 - media screen and (max-width: 1199px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+4 - media screen and (max-width: 991px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 991px) {
+
+	/* global - start */
+	.order-last {
+		order: 0;
+	}
+
+	.section-title .title-text {
+		font-size: 36px;
+	}
+	.section-title .sub-title {
+		font-size: 20px;
+	}
+	.section-title p {
+		font-size: 18px;
+	}
+	.section-title.text-center p {
+		width: 100%;
+		display: block;
+	}
+
+	#backtotop {
+		width: 40px;
+		height: 40px;
+	}
+	#backtotop #scroll {
+		font-size: 20px;
+		line-height: 42px;
+	}
+	/* global - end */
+
+	/* header - start */
+	.header-section .main-menubar {
+		display: none;
+	}
+	.header-section .brand-logo .mobile-menu-btn {
+		display: inline-block;
+	}
+	/* header - end */
+
+	/* footer - start */
+	.footer-section {
+		padding: 20px 0px;
+		text-align: center;
+	}
+	.footer-section .copyright-text p {
+		font-size: 14px;
+		text-align: center !important;
+	}
+	.footer-section .useful-links > ul > li > a {
+		font-size: 14px;
+	}
+	.footer-section .useful-links {
+		margin: 10px 0px;
+	}
+	.footer-section .contact-info p {
+		font-size: 14px;
+	}
+	/* footer - end */
+
+	/* home - start */
+	.banner-section .banner-image {
+		display: table;
+		max-width: 250px;
+		margin: 60px auto;
+	}
+	.banner-section .banner-content {
+		margin-top: 0px;
+		padding: 0px 50px;
+		text-align: center;
+	}
+	.banner-section .banner-content .btns-group > ul {
+		display: table;
+		margin: 0px auto;
+	}
+	.banner-section .deco-image {
+		width: 150px;
+	}
+	.banner-section .deco-image-1 {
+		margin-bottom: -180px;
+	}
+
+	.feature-section .feature-item .feature-fontant {
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.service-item {
+		width: 32%;
+		min-height: 220px;
+	}
+	/* home - end */
+
+	/* privacy policy - start */
+	.privacy-policy-section .privacy-policy-item p {
+		font-size: 18px;
+	}
+	.privacy-policy-section .privacy-policy-item p.mb-30 {
+		margin-bottom: 15px;
+	}
+	/* privacy policy - end */
+
+}
+
+/* ====================================================================================================
+4 - media screen and (max-width: 991px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+5 - media screen and (max-width: 767px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 767px) {}
+
+/* ====================================================================================================
+5 - media screen and (max-width: 767px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+6 - media screen and (max-width: 680px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 680px) {}
+
+/* ====================================================================================================
+6 - media screen and (max-width: 680px) - end
+==================================================================================================== */
+
+
+
+
+
+
+/* ====================================================================================================
+7 - media screen and (max-width: 580px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 580px) {
+
+	/* global - start */
+	body {
+		font-size: 14px;
+	}
+	.section-title .title-text {
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+	.section-title .sub-title {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.section-title.text-center p {
+		font-size: 16px;
+	}
+	.sec-ptb-130 {
+		padding: 80px 0px;
+	}
+	.mb-60 {
+		margin-bottom: 30px;
+	}
+	.sec-ptb-80 {
+		padding: 60px 0px;
+	}
+	.social-links > ul > li {
+		width: 40px;
+		height: 40px;
+	}
+	.social-links > ul > li > a {
+		font-size: 18px;
+		line-height: 38px;
+	}
+	/* global - end */
+
+	/* header - start */
+	.header-section .brand-logo .brand-link > img {
+		height: 40px;
+		margin: -7px 0px;
+		margin-right: 5px;
+	}
+	.header-section .brand-logo .brand-link {
+		font-size: 20px;
+	}
+	.header-section {
+		padding: 15px 0px;
+	}
+	.sticky-header.stuck {
+		padding: 10px 0px;
+	}
+	.header-section .brand-logo .mobile-menu-btn {
+		font-size: 26px;
+		margin: 3px 0px;
+	}
+	/* header - end */
+
+	/* breadcrumb - start */
+	.breadcrumb-section .title-text {
+		font-size: 36px;
+		width: 100%;
+		text-align: center;
+	}
+	.breadcrumb-section {
+		height: 300px;
+	}
+	/* breadcrumb - end */
+
+	/* home - start */
+	.banner-section .banner-image {
+		display: table;
+		max-width: 150px;
+		margin: 30px auto;
+	}
+	.banner-section {
+		height: auto;
+		padding-top: 60px;
+	}
+	.banner-section .banner-content {
+		padding: 0px 15px;
+	}
+	.banner-section .banner-content .title-text {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.banner-section .banner-content p {
+		font-size: 14px;
+	}
+	.banner-section .banner-content .btns-group .list-title {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.banner-section .banner-content .btns-group > ul > li > a {
+		max-width: 100px;
+	}
+	.banner-section .deco-image {
+		width: 100px;
+	}
+	.banner-section .deco-image-1 {
+		margin-bottom: -130px;
+	}
+	.banner-section .deco-image-2 {
+		top: 35%;
+		margin-right: -118px;
+		transform: rotate(-30deg) translateY(-35%);
+	}
+
+	.about-item-grid .about-image {
+		width: 180px;
+		height: 180px;
+	}
+	.about-item-grid .item-title {
+		font-size: 20px;
+	}
+
+	.feature-section .feature-item .feature-image > img {
+		max-width: 140px;
+	}
+	.feature-section .feature-item .feature-image .shape-image {
+		width: 50px;
+	}
+	.feature-section .feature-item .feature-image .shape-1 {
+		top: 50px;
+		left: 15px;
+	}
+	.feature-section .feature-item .feature-image .shape-2 {
+		top: 80px;
+		right: 15px;
+	}
+	.feature-section .feature-item .feature-fontant .item-title {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.feature-section .feature-item {
+		margin-bottom: 80px;
+	}
+	.feature-section .feature-item .feature-image {
+		padding-bottom: 60px;
+		background-size: 70% auto;
+	}
+
+	.service-item .item-icon {
+		width: 100px;
+		height: 100px;
+		margin: 0px auto 20px;
+	}
+	.service-item .item-icon > img {
+		height: 40px;
+	}
+	.service-item {
+		width: 49%;
+		min-height: 170px;
+	}
+	.service-item .item-title {
+		font-size: 14px;
+	}
+
+	.advertisement-section .btns-group > ul > li > a {
+		max-width: 120px;
+	}
+	.advertisement-section .deco-image {
+		display: none;
+	}
+	/* home - end */
+
+	/* privacy policy - start */
+	.privacy-policy-section .privacy-policy-item p {
+		font-size: 14px;
+	}
+	.privacy-policy-section .privacy-policy-item .item-title {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	/* privacy policy - end */
+
+}
+
+/* ====================================================================================================
+7 - media screen and (max-width: 580px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+8 - media screen and (max-width: 480px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 480px) {}
+
+/* ====================================================================================================
+8 - media screen and (max-width: 480px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+9 - media screen and (max-width: 320px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 320px) {}
+
+/* ====================================================================================================
+9 - media screen and (max-width: 320px) - end
+==================================================================================================== */
