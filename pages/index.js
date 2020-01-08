@@ -1,14 +1,12 @@
-import Layout from "../components/IndexLayout";
+import React from "react";
 import Logo from "../assets/images/logo/logo_1.svg";
 import "../assets/css/bootstrap.min.css";
-import { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
 
 function HomePage() {
     return (
-        <Fragment>
-            <Layout />
+        <>
             <div id="thetop"></div>
             <div id="backtotop">
                 <a href="#" id="scroll">
@@ -649,7 +647,7 @@ function HomePage() {
                     </div>
                 </section>
             </main>
-        </Fragment>
+        </>
     );
 }
 
