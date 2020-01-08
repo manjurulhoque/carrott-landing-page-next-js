@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
 
-function TermsPage() {
+function PrivacyPolicyPage() {
     return (
         <Fragment>
             <Layout />
@@ -23,7 +23,10 @@ function TermsPage() {
                     <div className="row">
                         <div className="col-lg-3 col-md-12 col-sm-12">
                             <div className="brand-logo clearfix">
-                                <a href="/" className="brand-link float-left">
+                                <a
+                                    href="index.html"
+                                    className="brand-link float-left"
+                                >
                                     <img
                                         src="images/logo/logo_1.svg"
                                         alt="logo_not_found"
@@ -44,13 +47,13 @@ function TermsPage() {
                             <div className="main-menubar ul-li clearfix">
                                 <ul className="clearfix">
                                     <li>
-                                        <a href="/">Home</a>
+                                        <a href="index.html">Home</a>
                                     </li>
                                     <li>
-                                        <a href="/">About</a>
+                                        <a href="index.html">About</a>
                                     </li>
                                     <li>
-                                        <a href="/">Our Services</a>
+                                        <a href="index.html">Our Services</a>
                                     </li>
                                     <li>
                                         <a
@@ -78,13 +81,13 @@ function TermsPage() {
                     <div className="menu-list ul-li-block clearfix">
                         <ul className="clearfix">
                             <li>
-                                <a href="/">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="/">About</a>
+                                <a href="index.html">About</a>
                             </li>
                             <li>
-                                <a href="/">Our Services</a>
+                                <a href="index.html">Our Services</a>
                             </li>
                             <li>
                                 <a
@@ -107,7 +110,7 @@ function TermsPage() {
                     data-background="images/background/bg_1.jpg"
                 >
                     <div className="container position-relative">
-                        <h1 className="title-text mb-0">Terms of Use</h1>
+                        <h1 className="title-text mb-0">Privacy Policy</h1>
                     </div>
                 </section>
 
@@ -311,4 +314,4 @@ function TermsPage() {
     );
 }
 
-export default TermsPage;
+export default PrivacyPolicyPage;
