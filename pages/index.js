@@ -3,8 +3,9 @@ import "../assets/css/bootstrap.min.css";
 import { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
-import Container from "../components/styled/Container";
 import Row from "../components/styled/Row";
+import { Col, Container } from "@bootstrap-styled/v4";
+import BrandLogo from "../components/styled/BrandLogo";
 
 function HomePage() {
     return (
@@ -23,7 +24,7 @@ function HomePage() {
             >
                 <div className="container">
                     <Row>
-                        <div className="col-lg-3 col-md-12 col-sm-12">
+                        <Col lg={3} md={12} sm={12}>
                             <div className="brand-logo clearfix">
                                 <a
                                     href="#thetop"
@@ -43,9 +44,9 @@ function HomePage() {
                                     <i className="fal fa-bars"></i>
                                 </button>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="col-lg-9 col-md-12 col-sm-12">
+                        <Col lg={9} md={12} sm={12}>
                             <div className="main-menubar ul-li clearfix">
                                 <ul className="clearfix">
                                     <li>
@@ -82,7 +83,7 @@ function HomePage() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </Col>
                     </Row>
                 </div>
             </header>
@@ -147,7 +148,7 @@ function HomePage() {
                     </div>
 
                     <div className="container">
-                        <div className="row">
+                        <Row>
                             <div className="col-lg-4 order-last">
                                 <div className="banner-image">
                                     <img
@@ -202,7 +203,7 @@ function HomePage() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </Row>
                     </div>
                 </section>
 
@@ -272,7 +273,12 @@ function HomePage() {
                     <div className="container">
                         <div className="feature-item clearfix">
                             <div className="row justify-content-lg-between justify-content-md-center">
-                                <div className="col-lg-5 col-md-6 col-sm-12 order-last">
+                                <Col
+                                    lg="5"
+                                    sm="12"
+                                    md="6"
+                                    className="order-last"
+                                >
                                     <div
                                         className="feature-image text-center"
                                         data-background="images/shapes/img_11.png"
@@ -315,7 +321,7 @@ function HomePage() {
                                             />
                                         </div>
                                     </div>
-                                </div>
+                                </Col>
 
                                 <div className="col-lg-6 col-md-8 col-sm-12 d-flex">
                                     <div className="feature-fontant">
@@ -382,7 +388,7 @@ function HomePage() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-6 col-md-8 col-sm-12 d-flex">
+                                <Col lg="6" md="8" sm="12" className="d-flex">
                                     <div className="feature-fontant">
                                         <h3 className="item-title mb-30">
                                             <i className="far fa-calendar-alt mr-2"></i>{" "}
@@ -396,7 +402,7 @@ function HomePage() {
                                             fast and efficiently!
                                         </p>
                                     </div>
-                                </div>
+                                </Col>
                             </div>
                         </div>
 
@@ -447,7 +453,7 @@ function HomePage() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-6 col-md-8 col-sm-12 d-flex">
+                                <Col lg="6" md="8" sm="12" className="d-flex">
                                     <div className="feature-fontant">
                                         <h3 className="item-title mb-30">
                                             <i className="fas fa-user mr-2"></i>{" "}
@@ -461,7 +467,7 @@ function HomePage() {
                                             talented people.
                                         </p>
                                     </div>
-                                </div>
+                                </Col>
                             </div>
                         </div>
                     </div>
