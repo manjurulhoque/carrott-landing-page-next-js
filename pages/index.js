@@ -1,9 +1,10 @@
 import Layout from "../components/IndexLayout";
-import Logo from "../assets/images/logo/logo_1.svg";
 import "../assets/css/bootstrap.min.css";
 import { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
+import Container from "../components/styled/Container";
+import Row from "../components/styled/Row";
 
 function HomePage() {
     return (
@@ -21,7 +22,7 @@ function HomePage() {
                 className="header-section sticky-header clearfix"
             >
                 <div className="container">
-                    <div className="row">
+                    <Row>
                         <div className="col-lg-3 col-md-12 col-sm-12">
                             <div className="brand-logo clearfix">
                                 <a
@@ -82,7 +83,7 @@ function HomePage() {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </Row>
                 </div>
             </header>
             <div className="sidebar-menu-wrapper">
