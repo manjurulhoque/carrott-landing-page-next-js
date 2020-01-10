@@ -1,11 +1,12 @@
 import Layout from "../components/IndexLayout";
 import "../assets/css/bootstrap.min.css";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
 import Row from "../components/styled/Row";
 import { Col, Container } from "@bootstrap-styled/v4";
 import BrandLogo from "../components/styled/BrandLogo";
+import SiteNav from '../components/SiteNav/Index';
 
 function HomePage() {
     return (
@@ -17,76 +18,7 @@ function HomePage() {
                     <i className="far fa-arrow-up"></i>
                 </a>
             </div>
-
-            <header
-                id="header-section"
-                className="header-section sticky-header clearfix"
-            >
-                <div className="container">
-                    <Row>
-                        <Col lg={3} md={12} sm={12}>
-                            <div className="brand-logo clearfix">
-                                <a
-                                    href="#thetop"
-                                    className="brand-link nav-link scrollspy-btn float-left"
-                                >
-                                    <img
-                                        src="images/logo/logo_1.svg"
-                                        alt="logo_not_found"
-                                    />
-                                    Carrott
-                                </a>
-                                <button
-                                    type="button"
-                                    id="sidebar-collapse"
-                                    className="mobile-menu-btn float-right"
-                                >
-                                    <i className="fal fa-bars"></i>
-                                </button>
-                            </div>
-                        </Col>
-
-                        <Col lg={9} md={12} sm={12}>
-                            <div className="main-menubar ul-li clearfix">
-                                <ul className="clearfix">
-                                    <li>
-                                        <a
-                                            href="#thetop"
-                                            className="nav-link scrollspy-btn"
-                                        >
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="#about-section"
-                                            className="nav-link scrollspy-btn"
-                                        >
-                                            About
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="#service-section"
-                                            className="nav-link scrollspy-btn"
-                                        >
-                                            Our Services
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="http://eepurl.com/gKEhfD"
-                                            className="nav-link scrollspy-btn"
-                                        >
-                                            Sign up
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
-            </header>
+            <SiteNav />
             <div className="sidebar-menu-wrapper">
                 <div id="sidebar-menu" className="sidebar-menu">
                     <div className="dismiss text-right mb-60 clearfix">
