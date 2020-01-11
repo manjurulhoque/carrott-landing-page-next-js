@@ -3,6 +3,8 @@ import "../assets/css/bootstrap.min.css";
 import { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
+import SiteNav from "../components/SideNav/Index";
+import { Col } from "@bootstrap-styled/v4";
 
 function PrivacyPolicyPage() {
     return (
@@ -15,60 +17,7 @@ function PrivacyPolicyPage() {
                 </a>
             </div>
 
-            <header
-                id="header-section"
-                className="header-section sticky-header clearfix"
-            >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-3 col-md-12 col-sm-12">
-                            <div className="brand-logo clearfix">
-                                <a
-                                    href="index.html"
-                                    className="brand-link float-left"
-                                >
-                                    <img
-                                        src="images/logo/logo_1.svg"
-                                        alt="logo_not_found"
-                                    />
-                                    Carrott
-                                </a>
-                                <button
-                                    type="button"
-                                    id="sidebar-collapse"
-                                    className="mobile-menu-btn float-right"
-                                >
-                                    <i className="fal fa-bars"></i>
-                                </button>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-9 col-md-12 col-sm-12">
-                            <div className="main-menubar ul-li clearfix">
-                                <ul className="clearfix">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="index.html">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="index.html">Our Services</a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="http://eepurl.com/gKEhfD"
-                                            className="nav-link scrollspy-btn"
-                                        >
-                                            Sign up
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            <SiteNav />
 
             <div className="sidebar-menu-wrapper">
                 <div id="sidebar-menu" className="sidebar-menu">
@@ -120,7 +69,7 @@ function PrivacyPolicyPage() {
                 >
                     <div className="container">
                         <div className="row justify-content-center">
-                            <div className="col-lg-10">
+                            <Col lg={10}>
                                 <div className="privacy-policy-item mb-60">
                                     <p className="mb-30">
                                         This mobile application (the “App”) is
@@ -201,7 +150,7 @@ function PrivacyPolicyPage() {
                                         terms.
                                     </p>
                                 </div>
-                            </div>
+                            </Col>
                         </div>
                     </div>
                 </section>

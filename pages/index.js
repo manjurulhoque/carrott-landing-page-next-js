@@ -4,9 +4,8 @@ import React, { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
 import Row from "../components/styled/Row";
-import { Col, Container } from "@bootstrap-styled/v4";
-import BrandLogo from "../components/styled/BrandLogo";
-import SiteNav from '../components/SiteNav/Index';
+import { Col } from "@bootstrap-styled/v4";
+import SiteNav from "../components/SideNav/Index";
 
 function HomePage() {
     return (
