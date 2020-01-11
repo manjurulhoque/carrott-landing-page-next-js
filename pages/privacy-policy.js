@@ -4,7 +4,8 @@ import { Fragment } from "react";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
 import SiteNav from "../components/SideNav/Index";
-import { Col } from "@bootstrap-styled/v4";
+import { Col, Container } from "@bootstrap-styled/v4";
+import Row from "../components/styled/Row";
 
 function PrivacyPolicyPage() {
     return (
@@ -67,8 +68,8 @@ function PrivacyPolicyPage() {
                     id="privacy-policy-section"
                     className="privacy-policy-section sec-ptb-130 clearfix"
                 >
-                    <div className="container">
-                        <div className="row justify-content-center">
+                    <Container>
+                        <Row className="justify-content-center">
                             <Col lg={10}>
                                 <div className="privacy-policy-item mb-60">
                                     <p className="mb-30">
@@ -151,15 +152,15 @@ function PrivacyPolicyPage() {
                                     </p>
                                 </div>
                             </Col>
-                        </div>
-                    </div>
+                        </Row>
+                    </Container>
                 </section>
 
                 <section
                     id="advertisement-section"
                     className="advertisement-section sec-ptb-80 bg-default-orange text-white clearfix"
                 >
-                    <div className="container">
+                    <Container>
                         <div className="deco-image deco-image-1">
                             <img src="images/c-left.png" alt="carrot_image" />
                         </div>
@@ -218,23 +219,23 @@ function PrivacyPolicyPage() {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </Container>
                 </section>
             </main>
 
             <footer id="footer-section" className="footer-section clearfix">
-                <div className="container">
+                <Container>
                     <div className="row">
-                        <div className="col-lg-4 col-md-12 col-sm-12">
+                        <Col lg={4} md={12} sm={12}>
                             <div className="contact-info">
                                 <p className="mb-0">
                                     Contact us at{" "}
                                     <a href="#!">hello@carrott.com</a>
                                 </p>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="col-lg-4 col-md-12 col-sm-12">
+                        <Col lg={4} md={12} sm={12}>
                             <div className="useful-links ul-li-center clearfix">
                                 <ul className="clearfix">
                                     <li>
@@ -247,17 +248,17 @@ function PrivacyPolicyPage() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="col-lg-4 col-md-12 col-sm-12">
+                        <Col lg={4} md={12} sm={12}>
                             <div className="copyright-text text-right">
                                 <p className="mb-0">
                                     © 2019 Carrott | All Rights Reserved
                                 </p>
                             </div>
-                        </div>
+                        </Col>
                     </div>
-                </div>
+                </Container>
             </footer>
         </Fragment>
     );

@@ -5,6 +5,7 @@ import "../assets/css/aos.css";
 import "../assets/css/style.css";
 import SiteNav from "../components/SideNav/Index";
 import { Col } from "@bootstrap-styled/v4";
+import Row from "../components/styled/Row";
 
 function TermsPage() {
     return (
@@ -68,7 +69,7 @@ function TermsPage() {
                     className="privacy-policy-section sec-ptb-130 clearfix"
                 >
                     <div className="container">
-                        <div className="row justify-content-center">
+                        <Row className="justify-content-center">
                             <Col lg={10}>
                                 <div className="privacy-policy-item mb-60">
                                     <p className="mb-30">
@@ -151,7 +152,7 @@ function TermsPage() {
                                     </p>
                                 </div>
                             </Col>
-                        </div>
+                        </Row>
                     </div>
                 </section>
 
@@ -224,17 +225,17 @@ function TermsPage() {
 
             <footer id="footer-section" className="footer-section clearfix">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-4 col-md-12 col-sm-12">
+                    <Row>
+                        <Col lg={4} md={12} sm={12}>
                             <div className="contact-info">
                                 <p className="mb-0">
                                     Contact us at{" "}
                                     <a href="#!">hello@carrott.com</a>
                                 </p>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="col-lg-4 col-md-12 col-sm-12">
+                        <Col lg={4} md={12} sm={12}>
                             <div className="useful-links ul-li-center clearfix">
                                 <ul className="clearfix">
                                     <li>
@@ -247,16 +248,16 @@ function TermsPage() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="col-lg-4 col-md-12 col-sm-12">
+                        <Col lg={4} md={12} sm={12}>
                             <div className="copyright-text text-right">
                                 <p className="mb-0">
                                     © 2019 Carrott | All Rights Reserved
                                 </p>
                             </div>
-                        </div>
-                    </div>
+                        </Col>
+                    </Row>
                 </div>
             </footer>
         </Fragment>
